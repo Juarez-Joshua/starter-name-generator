@@ -4,7 +4,7 @@ const App = () => {
   const [name, setName] = useState([])
 
   useEffect(() => {
-    fetch('https://backend-name-generator-wl2d.onrender.com/')
+    fetch('// https://backend-name-generator-wl2d.onrender.com')
       .then((res) => res.json())
       .then((nme) => setName([nme]))
   }, [])
